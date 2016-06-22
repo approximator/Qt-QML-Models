@@ -10,6 +10,7 @@ Project {
 
         Export {
             cpp.includePaths: ".";
+            cpp.cxxLanguageVersion: "c++11"
 
             Depends { name: "cpp"; }
             Depends {
@@ -18,6 +19,7 @@ Project {
             }
         }
         Depends { name: "cpp"; }
+        cpp.cxxLanguageVersion: "c++11"
         Depends {
             name: "Qt";
                 submodules: ["core", "qml"];
